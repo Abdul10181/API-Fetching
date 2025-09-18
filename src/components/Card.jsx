@@ -6,6 +6,7 @@ function Card({ products }) {
 
   return (
     <div className="row g-4">
+      <h1>Products</h1>
       {products.map(item => (
         <div className="col-md-3" key={item.id}>
           <Link 
